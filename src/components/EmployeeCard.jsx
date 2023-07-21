@@ -1,5 +1,5 @@
 import { Badge, ListGroup } from "react-bootstrap";
-import AvatarStaff from "./avatarStaff.jsx";
+import AvatarStaff from "./AvatarStaff.jsx";
 
 const EmployeeCard = ({ employee }) => {
   return (

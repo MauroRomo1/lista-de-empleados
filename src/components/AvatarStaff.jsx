@@ -1,6 +1,4 @@
-import React from "react";
-
-const avatarStaff = ({ fullName, pic }) => {
+const AvatarStaff = ({ fullName, pic }) => {
   return (
     <img
       src={pic}
@@ -10,4 +8,4 @@ const avatarStaff = ({ fullName, pic }) => {
   );
 };
 
-export default avatarStaff;
+export default AvatarStaff;
