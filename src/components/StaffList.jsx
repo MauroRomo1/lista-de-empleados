@@ -1,6 +1,7 @@
-import React from "react";
-import { Badge, ListGroup } from "react-bootstrap";
+import { ListGroup } from "react-bootstrap";
+
 import { employees } from "../employees.js";
+import EmployeeCard from "./EmployeeCard.jsx";
 
 const StaffList = () => {
   return (
@@ -9,25 +10,7 @@ const StaffList = () => {
         <div className="col col-md-6">
           <ListGroup>
             {employees.map((employee) => (
-              <ListGroup.Item key={employee.id}>
-                <div className="d-flex position-relative">
-                  <img
-                    src="https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png"
-                    className="img-fluid flex-shrink-0 me-3"
-                    width={80}
-                    alt="..."
-                  />
-                  <div>
-                    <h5 className="mt-0">Julian Karkov</h5>
-                    <p>
-                      CEO{" "}
-                      <Badge pill bg="primary">
-                        Diseñador
-                      </Badge>
-                    </p>
-                  </div>
-                </div>
-              </ListGroup.Item>
+              <EmployeeCard key={employee.id} employee={employee} />
             ))}
           </ListGroup>
         </div>
