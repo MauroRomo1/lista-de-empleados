@@ -18,7 +18,7 @@ export let employees = [
     fullName: "Shantell Meza",
     title: "CFO",
     department: "Business",
-    pic: "./src/image/user-avatar.png",
+    pic: "../src/image/user-avatar.png",
   },
   {
     id: 4,
