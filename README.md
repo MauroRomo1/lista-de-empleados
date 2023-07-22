@@ -7,6 +7,7 @@ Lista de empleados ficticios para poner en practica el funcionamiento de los com
 
 ![image](https://github.com/MauroRomo1/lista-de-empleados/assets/82526247/2b7da3d8-e963-44ea-8895-b87eb05e7c3b)
 
+## Para colonar este proyecto copie y pege uno por uno los siguientes comandos en una termina
 - Paso 1:
 ```
 git clone https://github.com/MauroRomo1/lista-de-empleados.git
