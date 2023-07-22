@@ -1,8 +1,22 @@
-# React + Vite
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Man Technologist" width="60" height="60" />
+  Lista de empleados
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lista de empleados ficticios para poner en practica el funcionamiento de los componentes en React <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thinking%20Face.png" alt="Thinking Face" width="50" height="50" />
 
-Currently, two official plugins are available:
+![image](https://github.com/MauroRomo1/lista-de-empleados/assets/82526247/2b7da3d8-e963-44ea-8895-b87eb05e7c3b)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Paso 1:
+```
+git clone https://github.com/MauroRomo1/lista-de-empleados.git
+```
+
+- Paso 2:
+```
+npm install
+```
+- Paso 3:
+```
+npm run dev
+```
